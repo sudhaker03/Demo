@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sudhaker_ftc_test.AddAppointmentActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:id="@+id/et_Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/commonMargin_Padding"
+            android:background="@drawable/border_shape"
+            android:hint="@string/title"
+            android:inputType="textVisiblePassword"
+            android:padding="@dimen/commonMargin_Padding" />
+
+        <EditText
+            android:id="@+id/et_Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_Title"
+            android:layout_margin="@dimen/commonMargin_Padding"
+            android:background="@drawable/border_shape"
+            android:hint="@string/des"
+            android:inputType="textVisiblePassword"
+            android:padding="@dimen/commonMargin_Padding" />
+
+        <EditText
+            android:id="@+id/et_Time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_Description"
+            android:layout_margin="@dimen/commonMargin_Padding"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:background="@drawable/border_shape"
+            android:hint="@string/time"
+            android:inputType="textVisiblePassword"
+            android:padding="@dimen/commonMargin_Padding" />
+
+        <LinearLayout
+            android:id="@+id/ll_Spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_Time"
+            android:layout_margin="@dimen/commonMargin_Padding"
+            android:background="@drawable/border_shape"
+            android:orientation="horizontal"
+            android:padding="@dimen/commonMargin_Padding"
+            android:weightSum="10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:text="@string/remind_before" />
+
+            <Spinner
+                android:id="@+id/sp_RemindBefore"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:overlapAnchor="false"
+                android:spinnerMode="dropdown"></Spinner>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_Participants"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_Spinner"
+            android:layout_margin="@dimen/commonMargin_Padding"
+            android:background="@drawable/border_shape"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:hint="@string/add_participants"
+            android:inputType="textVisiblePassword"
+            android:padding="@dimen/commonMargin_Padding" />
+
+
+        <Button
+            android:id="@+id/btn_Save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_Participants"
+            android:layout_margin="@dimen/commonMargin_Padding"
+            android:text="@string/save" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Sudhaker FTC Test</string>
+    <string name="login">Login</string>
+    <string name="email_id">Email Id</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="new_user">New User</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="confirm_Password">Confirm Password</string>
+    <string name="old_user">Old User</string>
+    <string name="enterNameFirst">Enter Name</string>
+    <string name="enter_email">Enter Email Id</string>
+    <string name="enter_Password">Enter Password</string>
+    <string name="valid_emial">Enter valid email address</string>
+    <string name="enter_confirmPass">Enter Confirm Password</string>
+    <string name="pass_confrim_notMatch">Password and confirm password not matched</string>
+    <string name="signUpFirst">Please Sign Up First</string>
+    <string name="welcome_to_appointment_app">Welcome To Appointment App</string>
+    <string name="forgotPass">Forgot Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="passUpdated">Password updated Successfully ,Please Login</string>
+    <string name="user_AllreadyExist">User Allready Exist, Please Login</string>
+    <string name="passwordNotMatch">Password Does not matched</string>
+    <string name="email_id_or_passwordNotMatch">Email Id or Password Does not matched</string>
+    <string name="min_pass">Password must be of minimum 6 characters</string>
+    <string name="title_activity_appointment_list">Appointment List</string>
+    <string name="add_appointment">Add Appointment</string>
+    <string name="remind_before">Remind Before</string>
+    <string name="title">Title</string>
+    <string name="des">Description</string>
+    <string name="time">Time (Click To Select Time )</string>
+    <string name="add_participants">Participant(Click To add participants)</string>
+    <string name="save">Save</string>
+    <string name="enterTitle">Enter Title</string>
+    <string name="enter_des">Enter Description</string>
+    <string name="setTime">Set Time</string>
+    <string name="app_added">Appointment Added</string>
+    <string name="app_updated">Appointment Updated</string>
+    <string name="read_contact_rational">permission rationale</string>
+    <string name="done">Done</string>
+    <string-array name="RemindBefore">
+        <item>30 Minute</item>
+        <item>1 Hour</item>
+        <item>2 Hour</item>    </string-array>
+</resources>
