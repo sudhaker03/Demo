@@ -31,6 +31,7 @@
     <string name="remind_before">Remind Before</string>
     <string name="title">Title</string>
  <string name="title1">Title1</string>
+<string name="title2">Title2</string>
     <string name="des">Description</string>
     <string name="time">Time (Click To Select Time )</string>
     <string name="add_participants">Participant(Click To add participants)</string>
