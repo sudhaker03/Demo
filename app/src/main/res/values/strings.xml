@@ -5,6 +5,7 @@
    <string name="featureA">Login</string>
     <string name="featureB">Login</string>
     <string name="email_id">Email Id</string>
+    <string name="login1">Login</string>
     <string name="password">Password</string>
     <string name="remember_me">Remember Me</string>
     <string name="new_user">New User</string>
